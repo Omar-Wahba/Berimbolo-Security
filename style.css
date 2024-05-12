@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+
+:root{
+    --green-light: #59BC64;
+    --green-dark: #35823C;
+}
+
+.rubik-light {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.rubik-regular {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.rubik-medium {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.phone{
+    background-color: var(--green-dark);
+    color: white;
+    transition: 0.5s;
+    border-width: 2px;
+}
+
+.phone:hover{
+    background-color: white;
+    color: black;
+    border-color: var(--green-dark);
+}
+
+.nav-link{
+    transition: 0.2s;
+}
+
+.nav-link:hover{
+    color: var(--green-light);
+    transform: scale(1.05,1.05);
+}
+
+.landing-text{
+    font-size: 24px;
+    margin-top: 10%;
+    margin-right: 7%;
+}
+
+.contact{
+    width: 50%;
+}
+
+@media only screen and (max-width: 990px){
+    .landing-text{
+        font-size: 20px;
+        margin-right: 5%;
+        margin-top: 15%;
+    }
+    .contact{
+        width: 75%;
+    }
+}
+
+.serviceCard{
+    transition: 0.5s;
+}
+.serviceCard:hover{
+    transform: scale(1.02,1.02);
+}
+
+.planCard{
+    transition: 0.5s;
+}
+
+.planCard:hover{
+    transform: translateY(-10px);
+}
+
+.planBtn{
+    transition: .3s
+}
+
+.planBtn:hover{
+    transform: scale(1.05,1.05);
+}
+
